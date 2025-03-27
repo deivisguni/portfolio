@@ -1,0 +1,22 @@
+
+.test-class {
+  color: red;
+
+}
+
+.test {
+  color: blue;
+  &-class {
+    color: green;
+    font-size: larger;
+  }
+
+  &-green {
+    color: green;
+    font-size: larger;
+    letter-spacing: 9px;
+  }
+  &-red {
+    color: red;
+  }
+}
